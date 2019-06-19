@@ -2,7 +2,8 @@
 
 Android 预览PDF文件
 
-- *方式一*   Android本地        
+- **方式一**    Android本地        
+
   将html和js文件复制到assets目录中，然后用WebView加载：      
   ```
   @SuppressLint("SetJavaScriptEnabled")
@@ -17,10 +18,10 @@ Android 预览PDF文件
     }
   
   ```
-  这种方式会增大APK体积,建议使用方式二
+  这种方式会增大APK体积,建议使用方式二      
   
   
-  - *方式二*   服务端    
+- **方式二**    服务端   
   服务端部署以上文件，Android端 Webview加载链接
   ```
   webView.loadUrl("http://mozilla.github.io/pdf.js/web/viewer.html?file=$pdfUrl")
