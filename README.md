@@ -25,6 +25,8 @@ Android 预览PDF文件
   服务端部署以上文件，Android端 Webview加载链接
   ```
   webView.loadUrl("http://mozilla.github.io/pdf.js/web/viewer.html?file=$pdfUrl")
+  
+  webView.loadUrl("https://static.yuxiaor.com/pdf-index.html?$pdfUrl")
   ```
 
 
