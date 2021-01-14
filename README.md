@@ -26,7 +26,7 @@ Android 预览PDF文件
   ```
   webView.loadUrl("http://mozilla.github.io/pdf.js/web/viewer.html?file=$pdfUrl")
   
-  webView.loadUrl("https://static.yuxiaor.com/pdf-index.html?$pdfUrl")
+  webView.loadUrl("https://yfbx-repo.github.io/pdf-viewer/pdf-index.html?$pdfUrl")
   ```
 
 
